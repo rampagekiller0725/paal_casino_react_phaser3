@@ -1,0 +1,45 @@
+.blackjack {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.blackjack .col {
+    padding: 1vw;
+    position: relative;
+    background-color: url('../../../public/assets/imgs/green_table.png');
+}
+
+.blackjack img {
+    height: 40vw;
+}
+.blackjack .col .green-table {
+    border-radius: 5%;
+    border: 2px solid yellow;
+}
+
+.blackjack .col .green-table:hover {
+    border: 2px solid blue;
+    opacity: 80%;
+}
+.blackjack .col .green-table-plus {
+    border-radius: 5%;
+    border: 2px solid yellow;
+}
+
+.blackjack .col .green-table-plus:hover {
+    border: 2px solid blue;
+    opacity: 80%;
+}
+.add-room {
+    position: absolute;
+    color: white;
+    font-size: 9em;
+    line-height: 80%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.blackjack-game {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
